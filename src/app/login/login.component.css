@@ -1,0 +1,40 @@
+FlexboxLayout {
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("~/app/images/Background-new.png");
+  }
+  StackLayout {
+    width: 300;
+    padding: 10 16;
+    background-color: #ffffff;
+  }
+  button {
+      color: #ffffff;
+      background-color: #00A3ff;
+  }
+  Image {
+    margin-bottom: 20;
+    height: 70;
+  }
+  Button, TextField {
+    margin-bottom: 10;
+  }
+  .btn-primary {
+    background-color: #CB1D00;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  TextField {
+    placeholder-color: rgb(216, 216, 216);
+    color: black;
+  }
+  .dark {
+      background-color: rgb(0, 59, 94)
+  }
+  .dark TextField {
+      color: #f4f4F4
+  }
+  :disabled {
+    opacity: 0.5;
+  }  
